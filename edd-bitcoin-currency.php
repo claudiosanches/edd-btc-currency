@@ -5,7 +5,7 @@
  * Description: Adds Bitcoin currency in Easy Digital Downloads
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
- * Version: 1.0
+ * Version: 1.0.0
  * License: GPLv2 or later
  * Text Domain: eddbitcc
  * Domain Path: /languages/

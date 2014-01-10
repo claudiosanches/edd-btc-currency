@@ -3,7 +3,7 @@
 **Tags:** ecommerce, e-commerce, commerce, wordpress ecommerce, currency, bitcoin, btc  
 **Requires at least:** 3.0  
 **Tested up to:** 3.8  
-**Stable tag:** 1.0  
+**Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -29,7 +29,7 @@ Please notice that [Easy Digital Downloads](http://wordpress.org/extend/plugins/
 
 ## Changelog ##
 
-### 1.0 ###
+### 1.0.0 ###
 
 * Initial release.
 
