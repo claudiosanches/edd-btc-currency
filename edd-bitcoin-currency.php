@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Easy Digital Downloads BTC Currency
+ * Plugin Name: Easy Digital Downloads Bitcoin Currency
  * Plugin URI: http://claudiosmweb.com/
- * Description: Adds Bitcoin currency in Easy Digital Downloads
+ * Description: Adds Bitcoin (BTC) currency in Easy Digital Downloads
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
  * Version: 1.0.0
@@ -12,7 +12,7 @@
  */
 
 /**
- * Add BTC Currency in Easy Digital Downloads.
+ * Add Bitcoin Currency in Easy Digital Downloads.
  */
 class EDD_BTC_Currency {
 
