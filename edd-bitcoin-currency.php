@@ -74,8 +74,15 @@ class EDD_BTC_Currency {
 	 *
 	 * @return int           Bitcoin decimals.
 	 */
-	public function currency_decimals() {
-		return 8;
+	public function currency_decimals( $decimals ) {
+		global $edd_options;
+
+		$currency = isset( $edd_options['currency'] ) ? $edd_options['currency'] : 'USD';
+		if ( 'BTC' == $currency ) {
+			return 8;
+		}
+
+		return $decimals;
 	}
 }
 
