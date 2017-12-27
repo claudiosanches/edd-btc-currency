@@ -48,7 +48,7 @@ class EDD_BTC_Currency {
 	 * @return array             News currencies with Bitcoin.
 	 */
 	public function add_currency( $currencies ) {
-		$currencies['BTC'] = __( 'Bitcoin (&#3647;)', 'eddbitcc' );
+		$currencies['BTC'] = __( 'Bitcoin (&#579;)', 'eddbitcc' );
 		asort( $currencies );
 
 		return $currencies;
@@ -62,7 +62,7 @@ class EDD_BTC_Currency {
 	 * @return string           Fixed Bitcoin currency display.
 	 */
 	public function currency_symbol( $formated ) {
-		$currency_symbol = apply_filters( 'bitcoin_currency_symbol', '&#3647;' );
+		$currency_symbol = apply_filters( 'bitcoin_currency_symbol', '&#579;' );
 
 		$formated = str_replace( 'BTC', $currency_symbol, $formated );
 
